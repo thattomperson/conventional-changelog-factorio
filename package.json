@@ -1,0 +1,38 @@
+{
+  "name": "conventional-changelog-factorio",
+  "version": "4.2.3",
+  "description": "conventional-changelog factorio preset",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thattomperson/conventional-changelog-factorio.git"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "factorio",
+    "preset"
+  ],
+  "files": [
+    "add-bang-notes.js",
+    "conventional-changelog.js",
+    "conventional-recommended-bump.js",
+    "index.js",
+    "parser-opts.js",
+    "writer-opts.js",
+    "templates"
+  ],
+  "author": "Ben Coe",
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thattomperson/conventional-changelog-factorio/issues"
+  },
+  "homepage": "https://github.com/thattomperson/conventional-changelog-factorio",
+  "dependencies": {
+    "compare-func": "^1.3.1",
+    "lodash": "^4.17.15",
+    "q": "^1.5.1"
+  }
+}
