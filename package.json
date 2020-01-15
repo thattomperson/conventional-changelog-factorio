@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-factorio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "conventional-changelog factorio preset",
   "main": "index.js",
   "repository": {

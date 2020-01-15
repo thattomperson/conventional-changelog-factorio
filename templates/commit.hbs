@@ -4,27 +4,15 @@
 {{~else}}
   {{~header}}
 {{~/if}}
-
-{{~!-- commit link --}} {{#if @root.linkReferences~}}
-  ([{{shortHash}}]({{commitUrlFormat}}))
-{{~else}}
-  {{~shortHash}}
-{{~/if}}
-
+  ({{~shortHash}})
 {{~!-- commit references --}}
 {{~#if references~}}
   , closes
-  {{~#each references}} {{#if @root.linkReferences~}}
-    [
-    {{~#if this.owner}}
-      {{~this.owner}}/
-    {{~/if}}
-    {{~this.repository}}{{this.prefix}}{{this.issue}}]({{issueUrlFormat}})
-  {{~else}}
+  {{~#each references}}
     {{~#if this.owner}}
       {{~this.owner}}/
     {{~/if}}
     {{~this.repository}}{{this.prefix}}{{this.issue}}
-  {{~/if}}{{/each}}
+  {{/each}}
 {{~/if}}
 
