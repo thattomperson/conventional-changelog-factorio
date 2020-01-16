@@ -1,5 +1,7 @@
 # [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/thattomperson/conventional-changelog-factorio.svg)](https://greenkeeper.io/)
+
 ## conventionalcommits.org convention
 
 A concrete implementation of the specification described at
